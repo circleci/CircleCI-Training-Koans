@@ -6,5 +6,4 @@ Enter a description of the challenge, potentially mention what areas are covered
 
 **Goals:**
 
- - Get a green build
-
+- Get a green build
