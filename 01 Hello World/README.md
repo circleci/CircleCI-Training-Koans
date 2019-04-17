@@ -8,4 +8,4 @@ Copy the config into your own project to produce a green build.
 
 **Goals:**
 
-- Get a green build
+- Share link to green job.
