@@ -1,0 +1,13 @@
+version: 2.1
+
+jobs:
+  orb-intro:
+    executor: custom-node
+    steps:
+      - run: echo "console.log('complete')" | node
+
+workflows:
+  version: 2
+  orb-intro-workflow:
+    jobs:
+      - orb-intro
