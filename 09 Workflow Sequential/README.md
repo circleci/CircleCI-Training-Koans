@@ -1,4 +1,4 @@
-# Challenge Title
+# Sequential Workflow
 
 **Description:**
 
@@ -7,3 +7,4 @@ The user has constructed a basic `build`, `test`, `deploy` workflow. Except, for
 **Goals:**
 
 - Make sure the workflow runs sequentially. `build`, `test`, then `deploy`.
+- Share link to green Workflow.
