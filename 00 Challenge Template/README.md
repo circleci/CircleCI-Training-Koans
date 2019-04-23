@@ -7,3 +7,9 @@ Enter a description of the challenge, potentially mention what areas are covered
 **Goals:**
 
 - Get a green build
+
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+  https://circleci.com/docs/
+</details>
