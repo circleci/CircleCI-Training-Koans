@@ -9,3 +9,9 @@ Copy the config into your own project to produce a green build.
 **Goals:**
 
 - Share link to green job.
+
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+  https://circleci.com/docs/
+</details>

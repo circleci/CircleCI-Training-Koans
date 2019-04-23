@@ -8,3 +8,10 @@ The user is building a Node "NPM" module. Before every release they ensure that 
 
 - Demonsrate a proper "fan out" workflow with concurrent test.
 - Share link to green Workflow.
+
+
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+  * https://circleci.com/docs/2.0/workflows-overview/
+</details>

@@ -8,3 +8,9 @@ The user has constructed a basic `build`, `test`, `deploy` workflow. Except, for
 
 - Make sure the workflow runs sequentially. `build`, `test`, then `deploy`.
 - Share link to green Workflow.
+
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+  * https://circleci.com/docs/2.0/workflows-overview/
+</details>
