@@ -6,9 +6,7 @@ We have a `deploy` job in our Workflow. We have decided we only ever want to run
 
 **Goals:**
 
-- Ensure the `deploy` job only runs for tagged commits.
-- Any of the following tags should trigger the job: "beta-main-0.1.1", "beta-secondary-0.1.1"
-- The job `deploy` should NOT run for any of the following tags: "alpha-main-0.1.1", "alpha-secondary-1.0.0"
+- Ensure the `deploy` job only runs for the `production` branch.v
 - Create the required branch and meet the requirements above for a green Workflow.
 - Share link to green Workflow.
 
