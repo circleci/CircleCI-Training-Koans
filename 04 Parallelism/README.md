@@ -6,6 +6,7 @@ Incomplete. We will need a simple way of setting up a test splitting challenge.
 
 **Goals:**
 
+- Incomplete. Do not attempt.
 - Get a green build
 
 **Help:**
