@@ -3,6 +3,9 @@ jobs:
   build:
     docker:
       - image: circleci/node
+      - image: circleci/postgres
+        environment:
+          POSTGRES_DB: circle_test
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the `echo` command
