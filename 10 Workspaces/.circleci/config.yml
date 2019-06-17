@@ -9,11 +9,11 @@ jobs:
             name: Generate app
             command: echo app >> app/linux/app.linux
         - run: cd ~/project/app && pwd && ls
+          # Edit below here
         - persist_to_workspace: 
-            root: ~/project/app
-              # Must be relative path from root
+            root: 
             paths:
-              - linux
+
   build-windows:
     docker:
       - image: node # use your imagination, using all linux/docker for ease-of-use
@@ -23,11 +23,11 @@ jobs:
             name: Generate app
             command: echo app >> app/windows/app.windows
         - run: cd ~/project/app && pwd && ls
+          # Edit below here
         - persist_to_workspace: 
-            root: ~/project/app
-              # Must be relative path from root
+            root: 
             paths:
-              - windows
+
   build-mac:
       docker:
         - image: node # use your imagination, using all linux/docker for ease-of-use
@@ -37,18 +37,17 @@ jobs:
             name: Generate app
             command: echo app >> app/mac/app.mac
         - run: cd ~/project/app && pwd && ls
+          # Edit below here
         - persist_to_workspace: 
-            root: ~/project/app
-              # Must be relative path from root
+            root:
             paths:
-              - mac
+
   deploy:
       docker:
-        - image: node # use your imagination, using all linux/docker for ease-of-use
+        - image: node
       steps:
         - attach_workspace:
-          # Must be absolute path or relative path from working_directory
-            at: app
+            at: <location>
         - store_artifacts: # See circleci.com/docs/2.0/artifacts/ for more details.
             path: app
             destination: apps

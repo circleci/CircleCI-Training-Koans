@@ -8,6 +8,7 @@ In this challenge, 3 applications will be created in a workflow. One for Linux, 
 
 - Persist each of the apps in the build jobs to the final deploy job.
 - Upload all of the apps to your artifacts.
+- Provide a link to your final workflow.
 
 **Help:**
 <details>
