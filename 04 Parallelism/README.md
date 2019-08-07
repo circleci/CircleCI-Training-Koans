@@ -2,11 +2,11 @@
 
 **Description:**
 
-Incomplete. We will need a simple way of setting up a test splitting challenge.
+Parallelism allows us to split a large workload, e.g a large number of tests, across several machines to help speed up the process.
 
 **Goals:**
 
-- Incomplete. Do not attempt.
+- Run the test scripts in parallel without modifying the workflow
 - Get a green build
 
 **Help:**
