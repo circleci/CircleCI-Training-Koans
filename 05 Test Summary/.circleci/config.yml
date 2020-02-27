@@ -8,5 +8,5 @@ jobs:
     steps:
       - build-tools/test-results:
           data-dir: ~/project/results
-          upload: true
+          upload: false
 # Add below this line, do not modify above
