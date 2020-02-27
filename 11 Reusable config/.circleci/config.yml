@@ -9,6 +9,10 @@ commands:
         default: "~/randomfolder"
     steps:
       - run: echo "Log file" > <<parameters.path>>/log.txt
+  middleMission:
+    description: "Just take a break - you can modify this mission anyway."
+    steps:
+      - run: sleep 5
   endmission:
     description: "Use the parameters of this command to exit this mission with a green build."
     parameters:
@@ -31,6 +35,7 @@ jobs:
               echo "The log should exist at ~/project/log.txt after running the 'generatelogs' command"
               exit 1
             fi
+      - middleMission
       - endmission
 
 workflows:
