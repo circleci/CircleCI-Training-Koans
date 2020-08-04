@@ -1,0 +1,20 @@
+version: 2.1
+
+orbs:
+  # Add Orb here
+
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      # Add step below to install Ruby version 2.3.8
+
+      
+      - run: ruby -v
+
+workflows:
+  run-jobs:
+    jobs:
+      - build
