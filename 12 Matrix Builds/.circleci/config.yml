@@ -25,13 +25,11 @@ jobs:
           node-version: << parameters.node-version >>
           install-yarn: true
       - run:
-          command: echo "running matrix job for ${<< parameters.os >>} ${<< parameters.node-version >>}"
+          command: echo "running matrix job for << parameters.os >> << parameters.node-version >>"
 
 workflows:
   all-tests:
     jobs:
       - test:
           matrix:
-            parameters:
-              os: [linux, macos]
-              node-version: ["10.9.0", "11.9.0", "12.9.1", "13.9.0"]
+            # Add below this line to setup matrix build
