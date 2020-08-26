@@ -10,7 +10,7 @@ We want to run our job across multiple versions of Node and on both Mac and Linu
 - Add a matrix condition to run the jobs for the following node versions: `10.9.0`,`11.9.0`,`12.9.1`,`13.9.0`
 - Share link to green build that executed all 8 jobs, should look like this:
 
-![matrix](/src/matrix.png)
+![matrix](/12%20Matrix%20Builds/src/matrix.png)
 
 **Help:**
 <details>
