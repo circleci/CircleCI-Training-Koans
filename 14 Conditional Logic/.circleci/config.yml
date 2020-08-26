@@ -1,0 +1,38 @@
+version: 2.1
+
+parameters:
+  condition-workflow:
+    type: boolean
+    default: true
+
+jobs:
+  my-job:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - when:
+          condition:
+            # Add condition to execute this step when the github branch is equal to 'main'
+          steps:
+            - run: echo "I am on main"
+
+  conditional-job:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run: echo "This ran on a pipeline parameter"
+
+workflows:
+  version: 2
+  my-workflow:
+    jobs:
+      - my-job
+
+  conditional-workflow:
+    when:
+      and:
+        # Add condition to execute this workflow when condition-workflow is equal to true
+    jobs:
+      - conditional-job
