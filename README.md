@@ -10,6 +10,10 @@ The best way to follow along is to create a new repository on your personal GitH
 
 _side note_: If you come across an issue with a config that isn't directly related to the challenge, consider it a learning opportunity, unless it is related to an underlying change to the platform.
 
+# Maintainers
+
+Overall this repository is utilized during the onboarding process for multiple teams in the Customer Engineering organization. Feel free to reach out to @nbialostosky (Nick Bialostosky) if you need a PR review or general questions. If they are not available, anyone on the support team should be able to assist (#custeng-support).
+
 # Keep a log
 
 Each challenge will ask you to record the link to the workflow or job where you have completed the challenge.
