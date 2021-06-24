@@ -9,7 +9,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      # Add step below to install Ruby version 2.3.8
+      # Add step below to install Ruby version 2.6.3
 
       
       - run: ruby -v
