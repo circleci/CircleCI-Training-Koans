@@ -1,0 +1,31 @@
+version: 2.1
+
+parameters:
+  run_by_api:
+    type: boolean
+    default: false
+
+jobs:
+  regular:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run: echo "I was run normally"
+
+  api-job:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run: echo "I was run by API"
+
+workflows:
+  normal:
+    jobs:
+      - regular
+
+  api-workflow:
+    when: << pipeline.parameters.run_by_api >> # Without modifying the config, run api-job
+    jobs:
+      - api-job
