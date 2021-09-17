@@ -12,7 +12,7 @@ _side note_: If you come across an issue with a config that isn't directly relat
 
 # Maintainers
 
-Overall this repository is utilized during the onboarding process for multiple teams in the Customer Engineering organization. Feel free to reach out to @nbialostosky (Nick Bialostosky) if you need a PR review or general questions. If they are not available, anyone on the support team should be able to assist (#custeng-support).
+The Support Team maintains this repository, if you have any questions or need anything approved feel free to reach out.
 
 # Keep a log
 
