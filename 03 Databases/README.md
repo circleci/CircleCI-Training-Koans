@@ -12,7 +12,9 @@ The user is attempting to run a node web application which connects to a Postgre
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
-      * https://circleci.com/docs/2.0/postgres-config/
-      * https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml
-      * https://circleci.com/docs/2.0/hello-world/#echo-hello-world-with-a-build-job
+
+  * https://circleci.com/docs/2.0/postgres-config/
+  * https://github.com/Animosity/CraftIRC/wiki/Complete-idiot's-introduction-to-yaml
+  * https://circleci.com/docs/2.0/hello-world/#echo-hello-world-with-a-build-job
+
 </details>
