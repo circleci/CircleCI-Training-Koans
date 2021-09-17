@@ -14,11 +14,14 @@ We have a `api-job` job in our Workflow. We have decided we only ever want to ru
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
+
   * https://circleci.com/docs/2.0/managing-api-tokens/
   * https://circleci.com/docs/api/v2/#operation/triggerPipeline
   * https://support.circleci.com/hc/en-us/articles/360052405651-Utilizing-Basic-authorization-in-CircleCI-API-calls
+  
   <details>
     <summary>Bonus Spoiler!</summary>
+
     ```zsh
     curl --request POST \
     --url https://circleci.com/api/v2/project/github/[ORG]/[PROJECT]/pipeline \
@@ -26,5 +29,6 @@ We have a `api-job` job in our Workflow. We have decided we only ever want to ru
     --header 'content-type: application/json' \
     --data '[JSON_DATA]'
     ```
+
   </details>
 </details>
