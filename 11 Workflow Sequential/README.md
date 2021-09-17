@@ -12,5 +12,7 @@ The user has constructed a basic `build`, `test`, `deploy` workflow. Except, for
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
+
   * https://circleci.com/docs/2.0/workflows-overview/
+  
 </details>

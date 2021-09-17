@@ -15,5 +15,7 @@ Note: If you have completed the hiring technical challenge, you may skip this.
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
-  https://circleci.com/docs/
+
+  * https://circleci.com/docs/
+  
 </details>

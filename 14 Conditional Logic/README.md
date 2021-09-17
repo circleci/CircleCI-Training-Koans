@@ -13,7 +13,9 @@ This config makes use of "Conditional Logic" to have certain actions only occur 
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
+
   * https://discuss.circleci.com/t/advanced-logic-in-config/36011
   * https://circleci.com/docs/2.0/configuration-cookbook/#using-logic-in-configuration
   * https://circleci.com/docs/2.0/configuration-reference/#logic-statements
+  
 </details>

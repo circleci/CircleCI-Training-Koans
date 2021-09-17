@@ -13,5 +13,7 @@ We have a config file that requires a specific Ruby version be installed, howeve
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
-  https://circleci.com/orbs/registry/orb/circleci/ruby#usage-examples
+
+  * https://circleci.com/orbs/registry/orb/circleci/ruby#usage-examples
+  
 </details>

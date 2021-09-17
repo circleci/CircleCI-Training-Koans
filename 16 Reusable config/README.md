@@ -13,5 +13,7 @@ This config makes use of "Reusable config". Rather than specifying a Docker imag
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
+
   * https://circleci.com/docs/2.0/reusing-config/#authoring-reusable-commands
+  
 </details>

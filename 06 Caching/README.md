@@ -38,7 +38,9 @@ Unarchiving cache...
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
-  https://circleci.com/docs/2.0/caching/
-  https://circleci.com/docs/2.0/yarn/#caching
-  https://circleci.com/docs/2.0/caching/#clearing-cache
+
+  * https://circleci.com/docs/2.0/caching/
+  * https://circleci.com/docs/2.0/yarn/#caching
+  * https://circleci.com/docs/2.0/caching/#clearing-cache
+  
 </details>

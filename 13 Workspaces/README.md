@@ -13,7 +13,8 @@ In this challenge, 3 applications will be created in a workflow. One for Linux, 
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
-  https://circleci.com/docs/2.0/concepts/#workspaces-and-artifacts
-
-  https://circleci.com/blog/build-cicd-piplines-using-docker/
+  
+  * https://circleci.com/docs/2.0/concepts/#workspaces-and-artifacts
+  * https://circleci.com/blog/build-cicd-piplines-using-docker/
+  
 </details>

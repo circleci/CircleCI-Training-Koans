@@ -13,5 +13,7 @@ The user is building a Node "NPM" module. Before every release they ensure that 
 **Help:**
 <details>
   <summary>Spoiler warning</summary>
+
   * https://circleci.com/docs/2.0/workflows/#fan-outfan-in-workflow-example
+  
 </details>
