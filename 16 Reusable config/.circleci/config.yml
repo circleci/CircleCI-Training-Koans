@@ -28,7 +28,7 @@ jobs:
           name: Check for logs - DO NOT MODIFY
           command: |
             if [ ! -f ~/project/log.txt ]; then
-              echo "The log should exist at ~/project/log.txt after running the 'generatelogs' command"
+              echo "The log should exist at ~/project/log.txt after running the 'generate-logs' command"
               exit 1
             fi
       - end-mission
