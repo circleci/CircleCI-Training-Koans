@@ -7,7 +7,7 @@ This config makes use of "Reusable config". Rather than specifying a Docker imag
 **Goals:**
 
 - Define a docker image of `circleci/node` for the `custom-node`executor.
-- Without modifying the source of the custom "generatelog" command, resolve the issue to get a green build.
+- Without modifying the source of the custom "generatelogs" command, resolve the issue to get a green build.
 - Share link to green job.
 
 **Help:**
