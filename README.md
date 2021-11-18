@@ -1,4 +1,4 @@
-# CircleCI Training Kōans
+# CircleCI Training Kōans 
 
 > _kōan_ (noun): a paradoxical anecdote or riddle, used in Zen Buddhism to demonstrate the inadequacy of logical reasoning and to provoke enlightenment.
 
