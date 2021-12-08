@@ -14,4 +14,4 @@ _side note_: If you come across an issue with a config that isn't directly relat
 
 Each challenge will ask you to record the link to the workflow or job where you have completed the challenge.
 
-Good luck!
+Good luck!!
