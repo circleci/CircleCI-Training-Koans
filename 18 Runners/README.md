@@ -9,7 +9,7 @@ What key aspects are important to note?
 **Goals:**
 
 - Carry out all pre-requisites to running tasks on a runner (authentication etc)
-- Create your runner using the Docker method, and successfully start the runner.
+- Create your runner using the Docker method.
 - Edit the config to enable the job to run on your runner.
 - Share Link to green job & image of agent running the job.
 
