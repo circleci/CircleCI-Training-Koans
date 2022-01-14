@@ -2,7 +2,7 @@
 
 **Description:**
 
-The Koan makes use of Runners, which enables you to use your own infrastructure for running jobs. This means you will be able to build and test on a wider variety of architectures, as well as have additional control over the environment.
+This Koan makes use of Runners, which enables you to use your own infrastructure for running jobs. This means you will be able to build and test on a wider variety of architectures, as well as have additional control over the environment.
 
 What key aspects are important to note?
 
