@@ -1,0 +1,12 @@
+version: 2.1
+
+jobs:
+  runner:
+    # Add your config here
+    steps:
+      - run: echo "Hi I'm on Runners!"
+
+workflows:
+  testing:
+    jobs:
+      - runner
