@@ -1,4 +1,5 @@
-version: 2
+version: 2.1
+
 jobs:
   test:
     docker:
@@ -16,7 +17,6 @@ jobs:
             bash src/test_goodbye.sh
 
 workflows:
-  version: 2
-  test:
+  test-workflow:
     jobs:
       - test

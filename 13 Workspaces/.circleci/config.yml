@@ -1,4 +1,5 @@
 version: 2.1
+
 jobs:
   build-linux:
     docker:
@@ -53,7 +54,6 @@ jobs:
             destination: apps
 
 workflows:
-  version: 2
   build_and_deploy:
     jobs:
       - build-linux

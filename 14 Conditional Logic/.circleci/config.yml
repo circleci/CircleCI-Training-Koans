@@ -25,7 +25,6 @@ jobs:
       - run: echo "This ran on a pipeline parameter"
 
 workflows:
-  version: 2
   my-workflow:
     jobs:
       - my-job

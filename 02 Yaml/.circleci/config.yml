@@ -1,4 +1,5 @@
-version: 2
+version: 2.1
+
 jobs:
   build:
     docker: circleci/node
@@ -17,4 +18,6 @@ jobs:
           key: v1-dependencies-
           paths: ~/cache
 
-
+workflows:
+  build-workflow:
+    jobs: build

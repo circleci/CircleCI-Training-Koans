@@ -21,7 +21,6 @@ jobs:
       - run: echo "Deploy complete"
 
 workflows:
-  version: 2
   build-test-and-deploy:
     jobs:
       - build

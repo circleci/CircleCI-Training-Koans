@@ -1,4 +1,5 @@
 version: 2.1
+
 jobs:
   build:
     docker: # use the docker executor type; machine and macos executors are also supported
@@ -6,3 +7,8 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the `echo` command
+
+workflows:
+  build-workflow:
+    jobs:
+      - build

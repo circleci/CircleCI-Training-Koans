@@ -1,4 +1,5 @@
 version: 2.1
+
 jobs:
   build:
     docker:
@@ -26,8 +27,8 @@ jobs:
         - image: circleci/node
       steps:
         - run: echo "DEPLOYING" # Make sure all tests pass first!
+
 workflows:
-  version: 2
   build-test-and-deploy:
     jobs:
       - build

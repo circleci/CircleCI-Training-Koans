@@ -8,4 +8,6 @@ jobs:
       - run: echo "docker image"
 
 workflows:
-  version: 2
+  build-docker-workflow:
+    jobs:
+      - build-docker
