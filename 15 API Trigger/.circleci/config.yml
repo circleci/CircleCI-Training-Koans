@@ -8,14 +8,14 @@ parameters:
 jobs:
   regular:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/base:2022.03
     steps:
       - checkout
       - run: echo "I was run normally"
 
   api-job:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/base:2022.03
     steps:
       - checkout
       - run: echo "I was run by API"

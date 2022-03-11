@@ -1,37 +1,38 @@
 version: 2.1
+
 jobs:
   build:
     docker:
-      - image: circleci/node
+      - image: cimg/base:2022.03
     steps:
       - checkout
       - run: echo "Building complete"
   test-node:
     docker:
-      - image: circleci/node
+      - image: cimg/node:17.6.0
     steps:
       - run: echo "Testing complete"
-  test-node-8:
+  test-node-16:
     docker:
-      - image: circleci/node:8
+      - image: cimg/node:16.14.0
     steps:
       - run: echo "Testing complete"
-  test-node-6:
+  test-node-14:
     docker:
-      - image: circleci/node:6
+      - image: cimg/node:14.19.0
     steps:
       - run: echo "Testing complete"
   deploy:
       docker:
-        - image: circleci/node
+        - image: cimg/base:2022.03
       steps:
         - run: echo "DEPLOYING" # Make sure all tests pass first!
+
 workflows:
-  version: 2
   build-test-and-deploy:
     jobs:
       - build
       - test-node
-      - test-node-8
-      - test-node-6
+      - test-node-16
+      - test-node-14
       - deploy

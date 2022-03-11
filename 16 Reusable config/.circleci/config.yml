@@ -19,7 +19,7 @@ commands:
       - run: exit <<parameters.exitCode>>
 
 jobs:
-  orb-intro:
+  build:
     executor: custom-node
     steps:
       - run: echo "console.log('complete')" | node
@@ -33,10 +33,7 @@ jobs:
             fi
       - endMission
 
-
-
 workflows:
-  version: 2
-  orb-intro-workflow:
+  build-workflow:
     jobs:
-      - orb-intro
+      - build
