@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: circleci/node
+      - image: cimg/base:2022.03
     steps:
       - checkout
       # These two tests should run in parallel. Make it so!

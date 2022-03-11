@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker: 
-      - image: circleci/node 
+      - image: cimg/base:2022.03 
     steps:
       - build-tools/test-results:
           name: Generating test results.

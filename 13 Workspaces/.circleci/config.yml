@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-linux:
     docker:
-      - image: node
+      - image: cimg/base:2022.03
     steps:
         - run: mkdir -p app/linux
         - run:
@@ -17,7 +17,7 @@ jobs:
 
   build-windows:
     docker:
-      - image: node # use your imagination, using all linux/docker for ease-of-use
+      - image: cimg/base:2022.03 # use your imagination, using all linux/docker for ease-of-use
     steps:
         - run: mkdir -p app/windows
         - run:
@@ -31,7 +31,7 @@ jobs:
 
   build-mac:
       docker:
-        - image: node # use your imagination, using all linux/docker for ease-of-use
+        - image: cimg/base:2022.03 # use your imagination, using all linux/docker for ease-of-use
       steps:
         - run: mkdir -p app/mac
         - run:
@@ -45,7 +45,7 @@ jobs:
 
   deploy:
       docker:
-        - image: node
+        - image: cimg/base:2022.03
       steps:
         - attach_workspace:
             at: <location>

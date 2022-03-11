@@ -3,13 +3,13 @@ version: 2.1
 executors:
   linux:
     docker:
-      - image: cimg/base:2021.10
+      - image: cimg/base:2022.03
   macos:
     macos:
       xcode: 12.5.1
 
 orbs:
-  node: circleci/node@4.7.0
+  node: circleci/node@5.0.0
 
 jobs:
   test:
