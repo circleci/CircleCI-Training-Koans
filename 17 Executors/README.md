@@ -17,8 +17,8 @@ What key aspects are important to note?
 <details>
   <summary>Spoiler warning</summary>
 
-https://circleci.com/docs/2.0/executor-types/
-https://circleci.com/docs/2.0/executor-types/#using-the-windows-executor
-https://circleci.com/docs/2.0/executor-types/#using-macos => note the first line in italics
+https://circleci.com/docs/executor-intro
+https://circleci.com/docs/executor-intro#windows
+https://circleci.com/docs/executor-intro#macos
 
 </details>
