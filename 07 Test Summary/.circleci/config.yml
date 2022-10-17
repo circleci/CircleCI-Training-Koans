@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     docker: 
-      - image: cimg/base:2022.03 
+      - image: cimg/base:2022.10 
 
     steps:
       - build-tools/test-results:

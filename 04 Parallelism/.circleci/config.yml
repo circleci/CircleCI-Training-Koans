@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: cimg/base:2022.03
+      - image: cimg/base:2022.10
     steps:
       - checkout
       # These two tests should run in parallel. Make it so!
