@@ -9,8 +9,9 @@ What key aspects are important to note?
 **Goals:**
 
 - Carry out all pre-requisites to running tasks on a runner (authentication etc)
-- Create your runner using the Docker method.
-- Edit the config to enable the job to run on your runner.
+- Create your machine runner using the Linux option.
+- Create your container runner.
+- Edit the config to enable the jobs to run on your runners.
 - Share Link to green job & image of agent running the job.
 
 ![runner](/18%20Runners/src/runner.png)
@@ -22,6 +23,8 @@ What key aspects are important to note?
 
 https://circleci.com/docs/2.0/runner-overview/
 https://circleci.com/docs/2.0/runner-installation/ => note the authentication section
-https://circleci.com/docs/2.0/runner-installation-docker/
+https://circleci.com/docs/runner-installation-linux/
+https://circleci.com/docs/container-runner-installation/
+https://circleci.com/docs/container-runner/
 
 </details>
