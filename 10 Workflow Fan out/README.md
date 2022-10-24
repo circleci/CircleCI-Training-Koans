@@ -6,9 +6,8 @@ The user is building a Node "NPM" module. Before every release they ensure that 
 
 **Goals:**
 
-- Demonsrate a proper "fan out" workflow with concurrent test.
-- Share link to green Workflow.
-
+- Demonstrate a proper "fan out" workflow with concurrent test.
+- Share link to green workflow.
 
 **Help:**
 <details>

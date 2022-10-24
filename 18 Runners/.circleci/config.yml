@@ -1,12 +1,17 @@
 version: 2.1
 
 jobs:
-  runner:
+  machine-runner:
     # Add your config here
     steps:
-      - run: echo "Hi I'm on Runners!"
+      - run: echo "Hi I'm on a machine runner!"
+  container-runner:
+    # Add your config here
+    steps:
+      - run: echo "Hi I'm on a container runner!"
 
 workflows:
   testing:
     jobs:
-      - runner
+      - machine-runner
+      - container-runner

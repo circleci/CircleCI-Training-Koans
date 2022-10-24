@@ -8,7 +8,7 @@ parameters:
 jobs:
   my-job:
     docker:
-      - image: cimg/base:2022.03
+      - image: cimg/base:2022.10
     steps:
       - checkout
       - when:
@@ -19,7 +19,7 @@ jobs:
 
   conditional-job:
     docker:
-      - image: cimg/base:2022.03
+      - image: cimg/base:2022.10
     steps:
       - checkout
       - run: echo "This ran on a pipeline parameter"
