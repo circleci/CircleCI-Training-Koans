@@ -2,7 +2,7 @@
 
 **Description:**
 
-Congrats, your tests have passed! Your test results were exported to `~/project/results/test_results.xml`. Let's see the results in the _test summary_ tab, and export the file as an _artifact_ in case we want to inspect it later.
+Congrats, your tests have passed! Your test results were exported to `~/project/results/test_results.xml`. Let's see if you can display the test results in the _test summary_ tab, and export the file as an _artifact_ in case we want to inspect it later.
 
 **Goals:**
 
@@ -10,3 +10,12 @@ Congrats, your tests have passed! Your test results were exported to `~/project/
 - Have test results displayed in the _test summary_ tab
 - Export the test results to an artifact.
 - Share link to green job.
+
+**Help:**
+<details>
+  <summary>Spoiler warning</summary>
+
+  * https://circleci.com/docs/collect-test-data/
+  * https://circleci.com/docs/artifacts/
+  
+</details>

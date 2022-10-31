@@ -11,7 +11,8 @@ jobs:
     steps:
       - build-tools/test-results:
           data-dir: ~/project/results
-          upload: true
+          upload: false # Don't cheat! 
+
 # Add below this line, do not modify above
 
 # Add above this line, do not modify below
