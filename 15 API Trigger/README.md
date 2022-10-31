@@ -1,15 +1,15 @@
-# Branch Filters
+# API Trigger
 
 **Description:**
 
-We have a `api-job` job in our Workflow. We have decided we only ever want to run our `api-job` job when we pass a certain parameter via an API call.
+We have a `api-job` job in our workflow. We have decided we only ever want to run our `api-job` job when we pass a certain parameter via an API call.
 
 **Goals:**
 
 - Create a personal api token
 - Build a curl command
 - Without modifying the `config.yml`, run `api-job`
-- Share link to green Workflow.
+- Share link to green workflow
 
 **Help:**
 <details>
