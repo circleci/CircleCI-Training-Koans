@@ -6,12 +6,13 @@ orbs:
 jobs:
   build:
     docker: 
-      - image: cimg/base:2022.03 
+      - image: cimg/base:2022.10 
 
     steps:
       - build-tools/test-results:
           data-dir: ~/project/results
-          upload: true
+          upload: false # Don't cheat! 
+
 # Add below this line, do not modify above
 
 # Add above this line, do not modify below
