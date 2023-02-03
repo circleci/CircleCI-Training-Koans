@@ -9,7 +9,7 @@ jobs:
       - image: cimg/base:2022.10
     steps:
       - checkout
-      # Add step below to install Ruby version 2.6.3
+      # Add step below to install Ruby version 3.2.0
 
       
       - run: ruby -v
